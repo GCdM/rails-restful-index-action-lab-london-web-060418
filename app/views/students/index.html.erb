@@ -1,0 +1,8 @@
+<h1>Welcome to the Students Page</h1>
+<h2>These are the students:</h2>
+<br></br>
+<ul>
+  <% @students.each do |student| %>
+    <li><%= student.to_s %></li>
+  <% end %>
+</ul>
